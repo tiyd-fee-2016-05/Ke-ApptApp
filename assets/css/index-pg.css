@@ -1,0 +1,23 @@
+body {
+  background-color: #feffff; }
+
+.wrapper {
+  margin: 5% 8%; }
+
+.pageTitle {
+  border-bottom: solid 2px #7B7B7B; }
+
+.bigTitle {
+  color: #56DBB7;
+  font-family: Roboto;
+  font-size: 2em;
+  text-align: center; }
+
+.plus {
+  color: #7B7B7B;
+  display: inline-block;
+  margin: 0% 10% 5% 90%;
+  font-size: 3em;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=index-pg.css.map */
