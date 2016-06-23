@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <link rel= "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link rel = "stylesheet" href = "assets/css/index-pg.css">
+    <link rel="stylesheet" href="assets/css/index-pg.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <title>ApptApp</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!--Header-->
-    <div class = "wrapper">
-      <div class = "pageTitle">
-        <h2 class = "bigTitle"> Appointments </h2>
-        <h3 class = "plus"> + </h3>
-      </div>
+    <div class="wrapper">
+        <div class="pageTitle">
+            <h2 class="bigTitle"> Appointments </h2>
+            <h3 class="plus"> + </h3>
+        </div>
+
+        <!--Search Bar-->
+        <div class="searchBar">
+            <input class="searchBar-search"><i class='fa fa-search' aria-hidden='true'></i></input>
+        </div>
+
+        <!--Entries-->
+
+        <div class="appointments">
+            <div class="appointments-time">
+                <h2 class="appointments-time--prinout">1pm</h2>
+            </div>
+            <ul class="appointment-info">
+                <li>
+                    <h3 class="appointment-title"> Lunch with Marceline </h3></li>
+                <li>
+                    <p class="appointment-location--printout">@ Candy Kingdom</p>
+                </li>
+            </ul>
+        </div>
+
+
 
 
 
@@ -28,4 +52,4 @@
     </div>
     <script type="text/javascript" src="assets/js/app.js"></script>
 
-  </body>
+</body>
