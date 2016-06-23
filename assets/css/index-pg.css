@@ -11,14 +11,13 @@ body {
 .bigTitle {
   color: #56DBB7;
   font-size: 2em;
-  text-align: center; }
+  text-align: center;
+  padding: 2%; }
 
-.plus {
+.fa-plus {
   color: #7B7B7B;
-  display: inline-block;
-  margin: 0% 10% 5% 90%;
   font-size: 3em;
-  vertical-align: middle; }
+  margin-left: 10%; }
 
 .searchBar-search {
   width: 80%;
@@ -29,31 +28,39 @@ body {
   color: #7B7B7B;
   text-align: right; }
 
-.appointments {
+.appointment-info {
   background-color: #F4F4F4;
   font-size: 1em;
-  padding: 2em .5em; }
+  padding: .5em;
+  width: 75%;
+  height: 20%;
+  float: right; }
 
 .appointments-time {
-  width: 5em;
-  height: 5em;
-  background-color: #56DBB7; }
+  width: 20%;
+  height: 20%;
+  margin-right: 0;
+  background-color: #56DBB7;
+  display: block; }
 
 .appointments-time--prinout {
   font-family: Archivo Black, sans-serif;
   color: #feffff;
   font-size: 2em;
-  text-align: left; }
+  padding: 2%; }
 
 .appointment-title {
   text-align: right;
   font-size: 1.5em;
-  margin-bottom: .5em; }
+  margin-bottom: 5%;
+  float: right; }
 
 .appointment-location--printout {
+  position: relative;
   color: #7B7B7B;
   font-style: italic;
   font-size: 1em;
-  text-align: right; }
+  text-align: right;
+  float: right; }
 
 /*# sourceMappingURL=index-pg.css.map */
