@@ -9,22 +9,25 @@ $fontStack: "Roboto", arial, sans-serif;
 $headerFontSize: 2em;
 
 body {
+  width: 100%;
+  margin: 0 auto 0;
   font-family: $fontStack;
   color: $darkGray;
 }
+
+.left-arrow {
+  position:absolute;
+  bottom: 7.95em;
+  left: 3.25%;
+  font-size: $headerFontSize + 1.05em;
+}
+
 header {
-  margin-top: 1.25em;
+  margin-top: 2.5em;
   padding-bottom: .15em;
   text-align: center;
   font-weight: 400;
   border-bottom: .15em solid $lightGray;
-
-  span {
-    position: relative;
-    bottom: .15em;
-    right: 1em;
-    font-size: $headerFontSize + 1.75em;
-  }
 
   h1 {
     position: relative;
@@ -33,3 +36,66 @@ header {
     font-size: $headerFontSize;
   }
 } // end header
+
+main {
+
+  font-size: $headerFontSize - .35em;
+  font-weight: 300;
+  width: 100%;
+
+  form {
+    margin-top: 1em;
+  }
+
+  label {
+    display: block;
+    margin: 1em 0 .35em 2.45%;
+  }
+
+  input {
+    display: block;
+    width: 95%;
+    margin: 0 auto 0;
+    font-size: $headerFontSize - .75em;
+    color: $darkGray;
+  }
+
+  .fa-map-marker {
+    position:absolute;
+    bottom: 16.55em;
+    right: 3.25%;
+    // font-size: $headerFontSize + 1.05em;
+  }
+
+  .fa-calendar {
+    position:absolute;
+    bottom: 8.45em;
+    right: 3.25%;
+  }
+
+  .fa-clock-o {
+    position:absolute;
+    bottom: 4.35em;
+    right: 3.25%;
+  }
+
+  .needs-bottom-border {
+    border-bottom: .1em solid $lightGray;
+  }
+} // end main
+
+footer {
+  position: fixed;
+  right: .2px;
+  width: 100%;
+  height: 4em;
+  background-color: $mainGreen;
+
+  h2 {
+    text-align: center;
+    margin-top: .75em;
+    font-size: $headerFontSize - .5em;
+    font-weight: 500;
+    color: #fff;
+  }
+}
