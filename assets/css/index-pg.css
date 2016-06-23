@@ -22,7 +22,7 @@ body {
 .searchBar-search {
   width: 80%;
   margin: 5% 10% 10% 3%;
-  padding: .5em 0; }
+  padding: 0.5em 0; }
 
 .fa-search {
   color: #7B7B7B;
@@ -31,10 +31,13 @@ body {
 .appointment-info {
   background-color: #F4F4F4;
   font-size: 1em;
-  padding: .5em;
-  width: 75%;
-  height: 20%;
-  float: right; }
+  width: 95%;
+  height: 20%; }
+
+.appointment-info--list-item {
+  width: 90%;
+  height: 18%;
+  display: block; }
 
 .appointments-time {
   width: 20%;
@@ -42,6 +45,12 @@ body {
   margin-right: 0;
   background-color: #56DBB7;
   display: block; }
+
+.weatherIcon {
+  width: 70%;
+  height: 70%;
+  margin: 2% 10%;
+  display: inline-block; }
 
 .appointments-time--prinout {
   font-family: Archivo Black, sans-serif;
