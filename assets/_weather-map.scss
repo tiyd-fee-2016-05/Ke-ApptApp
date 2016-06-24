@@ -17,9 +17,9 @@ body {
 
 .left-arrow {
   position:absolute;
-  bottom: 7.95em;
+  bottom: 7.837em;
   left: 3.25%;
-  font-size: $headerFontSize + 1.05em;
+  font-size: $headerFontSize + 1.4em;
 }
 
 header {
@@ -39,44 +39,54 @@ header {
 
 main {
 
-  font-size: $headerFontSize - .35em;
+  font-size: $headerFontSize - .5em;
   font-weight: 300;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto 0;
 
-  form {
-    margin-top: 1em;
+  .appointment-heading {
+    margin: 1.5em 0 1em 7%;
+    font-size: $headerFontSize - .95em;
+    font-weight: 500
   }
 
-  label {
-    display: block;
-    margin: 1em 0 .35em 2.45%;
+  .appointment-time {
+    color: $mainGreen;
   }
 
-  input {
-    display: block;
-    width: 95%;
+  figure {
+    width: 90%;
     margin: 0 auto 0;
-    font-size: $headerFontSize - .75em;
-    color: $darkGray;
   }
 
-  .fa-map-marker {
-    position:absolute;
-    bottom: 16.55em;
-    right: 3.25%;
-    // font-size: $headerFontSize + 1.05em;
+  figcaption {
+    margin: 1.5em 0 .5em 2.5%;
   }
 
-  .fa-calendar {
-    position:absolute;
-    bottom: 8.45em;
-    right: 3.25%;
+  .location-pic {
+    width: 100%;
+    margin: 0 auto 0;
+    border: 1px solid $darkGray;
   }
 
-  .fa-clock-o {
-    position:absolute;
-    bottom: 4.35em;
-    right: 3.25%;
+  .appt-weather {
+    width: 90.55%;
+    background-color: $lightGray;
+    margin: 1.15em auto 0;
+  }
+
+  .weather-pic {
+    width: 15%;
+    margin: .45em 0 0 1em;
+  }
+
+  .weather-conditions {
+    // padding: 0 0 1.75em 1em;
+    position: relative;
+    left: 1.35em;
+    bottom: .5em;
+    text-align: center;
+    font-size: $headerFontSize - .5em;
   }
 
   .needs-bottom-border {
@@ -89,13 +99,13 @@ footer {
   bottom: 0;
   right: .2px;
   width: 100%;
-  height: 2.9em;
+  height: 4.75em;
   background-color: $mainGreen;
 
   h2 {
     text-align: center;
     margin-top: .75em;
-    font-size: $headerFontSize - .75em;
+    font-size: $headerFontSize;
     font-weight: 500;
     color: #fff;
   }

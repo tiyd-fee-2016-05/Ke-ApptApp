@@ -39,9 +39,9 @@ body {
 
 .left-arrow {
   position: absolute;
-  bottom: 7.95em;
+  bottom: 7.837em;
   left: 3.25%;
-  font-size: 3.05em; }
+  font-size: 3.4em; }
 
 header {
   margin-top: 2.5em;
@@ -56,32 +56,38 @@ header {
     font-size: 2em; }
 
 main {
-  font-size: 1.65em;
+  font-size: 1.5em;
   font-weight: 300;
-  width: 100%; }
-  main form {
-    margin-top: 1em; }
-  main label {
-    display: block;
-    margin: 1em 0 .35em 2.45%; }
-  main input {
-    display: block;
-    width: 95%;
+  width: 90%;
+  margin: 0 auto 0; }
+  main .appointment-heading {
+    margin: 1.5em 0 1em 7%;
+    font-size: 1.05em;
+    font-weight: 500; }
+  main .appointment-time {
+    color: #56DBB7; }
+  main figure {
+    width: 90%;
+    margin: 0 auto 0; }
+  main figcaption {
+    margin: 1.5em 0 .5em 2.5%; }
+  main .location-pic {
+    width: 100%;
     margin: 0 auto 0;
-    font-size: 1.25em;
-    color: #7B7B7B; }
-  main .fa-map-marker {
-    position: absolute;
-    bottom: 16.55em;
-    right: 3.25%; }
-  main .fa-calendar {
-    position: absolute;
-    bottom: 8.45em;
-    right: 3.25%; }
-  main .fa-clock-o {
-    position: absolute;
-    bottom: 4.35em;
-    right: 3.25%; }
+    border: 1px solid #7B7B7B; }
+  main .appt-weather {
+    width: 90.55%;
+    background-color: #F4F4F4;
+    margin: 1.15em auto 0; }
+  main .weather-pic {
+    width: 15%;
+    margin: .45em 0 0 1em; }
+  main .weather-conditions {
+    position: relative;
+    left: 1.35em;
+    bottom: .5em;
+    text-align: center;
+    font-size: 1.5em; }
   main .needs-bottom-border {
     border-bottom: 0.1em solid #F4F4F4; }
 
@@ -90,13 +96,13 @@ footer {
   bottom: 0;
   right: .2px;
   width: 100%;
-  height: 2.9em;
+  height: 4.75em;
   background-color: #56DBB7; }
   footer h2 {
     text-align: center;
     margin-top: .75em;
-    font-size: 1.25em;
+    font-size: 2em;
     font-weight: 500;
     color: #fff; }
 
-/*# sourceMappingURL=_new-appt.css.map */
+/*# sourceMappingURL=_weather-map.css.map */
