@@ -60,6 +60,15 @@ main {
     margin: 0 auto 0;
   }
 
+  .fa-map-marker {
+    // position: absolute;
+    // bottom: 17.15em;
+    // left: 15.75em;
+    margin-left: 65%;
+    font-size: 1.25em;
+    color: $mainGreen;
+  }
+
   figcaption {
     margin: 1.5em 0 .5em 2.5%;
   }

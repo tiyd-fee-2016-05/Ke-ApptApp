@@ -70,6 +70,10 @@ main {
   main figure {
     width: 90%;
     margin: 0 auto 0; }
+  main .fa-map-marker {
+    margin-left: 65%;
+    font-size: 1.25em;
+    color: #56DBB7; }
   main figcaption {
     margin: 1.5em 0 .5em 2.5%; }
   main .location-pic {
