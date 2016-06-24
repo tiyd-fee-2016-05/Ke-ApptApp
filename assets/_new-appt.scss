@@ -1,4 +1,6 @@
 @import "../bower_components/meyer-reset/stylesheets/_meyer-reset.scss";
+@import "../bower_components/pickadate/lib/themes/default.css";
+@import "../bower_components/pickadate/lib/themes/default.date.css";
 @import "../bower_components/susy/sass/susy";
 @import "../bower_components/font-awesome/css/font-awesome.css";
 
@@ -59,6 +61,7 @@ main {
     margin: 0 auto 0;
     font-size: $headerFontSize - .75em;
     color: $darkGray;
+    outline: none;
   }
 
   .fa-map-marker {
