@@ -10,7 +10,7 @@ body {
 
 .bigTitle {
   color: #56DBB7;
-  font-size: 2em;
+  font-size: 2.7em;
   text-align: center;
   padding: 2%; }
 
@@ -31,20 +31,22 @@ body {
 .appointment-info {
   background-color: #F4F4F4;
   font-size: 1em;
-  width: 95%;
-  height: 20%; }
+  width: 80%;
+  height: 20%;
+  display: block;
+  padding: 3%; }
 
 .appointment-info--list-item {
   width: 90%;
-  height: 18%;
-  display: block; }
+  height: 18%; }
 
 .appointments-time {
   width: 20%;
   height: 20%;
   margin-right: 0;
   background-color: #56DBB7;
-  display: block; }
+  display: block;
+  padding: 1.5%; }
 
 .weatherIcon {
   width: 70%;
@@ -55,14 +57,14 @@ body {
 .appointments-time--prinout {
   font-family: Archivo Black, sans-serif;
   color: #feffff;
-  font-size: 2em;
-  padding: 2%; }
+  font-size: 1.6em;
+  padding: 3%; }
 
 .appointment-title {
   text-align: right;
   font-size: 1.5em;
   margin-bottom: 5%;
-  float: right; }
+  margin-left: 25%; }
 
 .appointment-location--printout {
   position: relative;
@@ -70,6 +72,6 @@ body {
   font-style: italic;
   font-size: 1em;
   text-align: right;
-  float: right; }
+  margin-left: 25%; }
 
 /*# sourceMappingURL=index-pg.css.map */

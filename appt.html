@@ -10,6 +10,48 @@
     <title>ApptApp: View Appointment</title>
   </head>
   <body>
+    <header>
+      <!-- <span class="left-arrow"><</span> -->
+      <h1>New Appointment</h1>
+    </header>
+    <main>
+      <form>
+        <!-- input "Title" -->
+        <label for="title">Title
+          <span class="left-arrow"><</span>
+        </label>
+        <input type="text" name="title" class="title needs-bottom-border">
+
+        <fieldset>
+          <!-- input "Street" -->
+          <label for="street">Street
+            <span class="fa fa-map-marker" aria-hidden="true"></span>
+          </label>
+          <input type="text" name="street" class="street">
+          <!-- input "City, State" -->
+          <label for="city-state">City, State</label>
+          <input type="text" name="city-state" class="city-state needs-bottom-border">
+        </fieldset>
+
+        <!-- input "Date" -->
+        <label for="date">Date
+          <span class="fa fa-calendar" aria-hidden="true"></span>
+        </label>
+        <input type="text" name="date" class="date needs-bottom-border">
+
+        <!-- input "Time" -->
+        <label for="time">Time
+          <span class="fa fa-clock-o" aria-hidden="true"></span>
+        </label>
+        <input type="text" name="time" class="time needs-bottom-border">
+      </form>
+
+      <footer><h2>Save Appointment</h2></footer>
+    </main>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
+
 
 
     <script type="text/javascript" src="assets/js/app.js"></script>
