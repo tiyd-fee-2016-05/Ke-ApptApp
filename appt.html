@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <link rel= "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <link rel = "stylesheet" href = "assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="assets/css/appt.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <title>ApptApp: View Appointment</title>
-  </head>
-  <body>
-    <header>
-      <!-- <span class="left-arrow"><</span> -->
-      <h1>New Appointment</h1>
-    </header>
-    <main>
-      <form>
-        <!-- input "Title" -->
-        <label for="title">Title
-          <span class="left-arrow"><</span>
-        </label>
-        <input type="text" name="title" class="title needs-bottom-border">
+</head>
 
-        <fieldset>
-          <!-- input "Street" -->
-          <label for="street">Street
-            <span class="fa fa-map-marker" aria-hidden="true"></span>
-          </label>
-          <input type="text" name="street" class="street">
-          <!-- input "City, State" -->
-          <label for="city-state">City, State</label>
-          <input type="text" name="city-state" class="city-state needs-bottom-border">
-        </fieldset>
+<body>
+    <div class="wrapper">
+        <div class="pageTitle">
+            <span>
+              <h2 class="bigTitle"> <span class="left-arrow"><</span></i>Edit Appointment</h2>
+            </span>
+        </div>
+        <main>
+            <form>
+                <!-- input "Title" -->
+                <label for="title">Title
+                </label>
+                <input type="text" name="title" class="title needs-bottom-border">
 
-        <!-- input "Date" -->
-        <label for="date">Date
-          <span class="fa fa-calendar" aria-hidden="true"></span>
-        </label>
-        <input type="text" name="date" class="date needs-bottom-border">
+                <fieldset>
+                    <!-- input "Street" -->
+                    <label for="street">Street
+                        <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    </label>
+                    <input type="text" name="street" class="street">
+                    <!-- input "City, State" -->
+                    <label for="city-state">City, State</label>
+                    <input type="text" name="city-state" class="city-state needs-bottom-border">
+                </fieldset>
 
-        <!-- input "Time" -->
-        <label for="time">Time
-          <span class="fa fa-clock-o" aria-hidden="true"></span>
-        </label>
-        <input type="text" name="time" class="time needs-bottom-border">
-      </form>
+                <!-- input "Date" -->
+                <label for="date">Date
+                    <span class="fa fa-calendar" aria-hidden="true"></span>
+                </label>
+                <input type="text" name="date" class="date needs-bottom-border">
 
-      <footer><h2>Save Appointment</h2></footer>
-    </main>
-    <script src="assets/js/app.js"></script>
-  </body>
+                <!-- input "Time" -->
+                <label for="time">Time
+                    <span class="fa fa-clock-o" aria-hidden="true"></span>
+                </label>
+                <input type="text" name="time" class="time needs-bottom-border">
+            </form>
+
+            <div class = "buttonContainer">
+                <div class="deleteButton">
+                  <h2>Delete</h2></div>
+                <div class="saveButton">
+                  <h2>Save</h2></div>
+            </div>
+        </main>
+        <script src="assets/js/app.js"></script>
+</body>
+
 </html>
 
 
 
-    <script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 
-  </body>
+</body>
