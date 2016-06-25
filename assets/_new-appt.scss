@@ -1,6 +1,7 @@
 @import "../bower_components/meyer-reset/stylesheets/_meyer-reset.scss";
 @import "../bower_components/pickadate/lib/themes/default.css";
 @import "../bower_components/pickadate/lib/themes/default.date.css";
+@import "../bower_components/pickadate/lib/themes/default.time.css";
 @import "../bower_components/susy/sass/susy";
 @import "../bower_components/font-awesome/css/font-awesome.css";
 
@@ -18,10 +19,16 @@ body {
 }
 
 .left-arrow {
-  position:absolute;
-  bottom: 7.95em;
+  // position:absolute;
+  // bottom: 7.95em;
+  // left: 3.25%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
   left: 3.25%;
-  font-size: $headerFontSize + 1.05em;
+  // font-size: $headerFontSize + 1.05em;
+  font-size: $headerFontSize + 3em;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -65,22 +72,22 @@ main {
   }
 
   .fa-map-marker {
-    position:absolute;
-    bottom: 16.55em;
-    right: 3.25%;
+    position: relative;
+    top: 1.7em;
+    left: 88.25%;
     // font-size: $headerFontSize + 1.05em;
   }
 
   .fa-calendar {
-    position:absolute;
-    bottom: 8.45em;
-    right: 3.25%;
+    position: relative;
+    top: 1.7em;
+    left: 89%;
   }
 
   .fa-clock-o {
-    position:absolute;
-    bottom: 4.35em;
-    right: 3.25%;
+    position: relative;
+    top: 1.7em;
+    left: 88.65%;
   }
 
   .needs-bottom-border {

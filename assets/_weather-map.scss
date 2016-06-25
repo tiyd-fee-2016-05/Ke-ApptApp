@@ -17,7 +17,7 @@ body {
 
 .left-arrow {
   position:absolute;
-  bottom: 7.837em;
+  bottom: 8.05em;
   left: 3.25%;
   font-size: $headerFontSize + 1.4em;
   cursor: pointer;
@@ -44,14 +44,19 @@ main {
   font-weight: 300;
   width: 90%;
   margin: 0 auto 0;
+  overflow: auto;
 
   .appointment-heading {
-    margin: 1.5em 0 1em 7%;
+    margin: 1.5em 0 -1.35em 7%;
     font-size: $headerFontSize - .95em;
     font-weight: 500
   }
 
   .appointment-time {
+    position: relative;
+    top: .47em;
+    left: 10.15em;
+    font-weight: 500;
     color: $mainGreen;
   }
 
@@ -64,7 +69,7 @@ main {
     // position: absolute;
     // bottom: 17.15em;
     // left: 15.75em;
-    margin-left: 65%;
+    margin-left: 72%;
     font-size: 1.25em;
     color: $mainGreen;
   }

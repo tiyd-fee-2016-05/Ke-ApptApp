@@ -39,7 +39,7 @@ body {
 
 .left-arrow {
   position: absolute;
-  bottom: 7.837em;
+  bottom: 8.05em;
   left: 3.25%;
   font-size: 3.4em;
   cursor: pointer; }
@@ -60,18 +60,23 @@ main {
   font-size: 1.5em;
   font-weight: 300;
   width: 90%;
-  margin: 0 auto 0; }
+  margin: 0 auto 0;
+  overflow: auto; }
   main .appointment-heading {
-    margin: 1.5em 0 1em 7%;
+    margin: 1.5em 0 -1.35em 7%;
     font-size: 1.05em;
     font-weight: 500; }
   main .appointment-time {
+    position: relative;
+    top: .47em;
+    left: 10.15em;
+    font-weight: 500;
     color: #56DBB7; }
   main figure {
     width: 90%;
     margin: 0 auto 0; }
   main .fa-map-marker {
-    margin-left: 65%;
+    margin-left: 72%;
     font-size: 1.25em;
     color: #56DBB7; }
   main figcaption {
