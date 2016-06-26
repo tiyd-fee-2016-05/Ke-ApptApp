@@ -19,7 +19,8 @@ body {
   color: #7B7B7B;
   font-size: 2em;
   margin-right: 7%;
-  cursor: pointer; }
+  cursor: pointer;
+  float: left; }
 
 .fa {
   color: #7B7B7B; }
@@ -64,6 +65,7 @@ main {
   width: 100%; }
 
 .saveButton {
+  cursor: pointer;
   border-radius: 2px;
   display: inline-block;
   width: 100%;
