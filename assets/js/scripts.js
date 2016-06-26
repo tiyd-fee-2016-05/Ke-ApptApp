@@ -18,9 +18,9 @@ $( function() {
 
         // if request is successful
         .done( function(data) {
-        var currentConditionsIcon = data.current_observation.icon_url;
-        // var currentTemp = data.current_observation.feelslike_string;
-        // var weatherIcon = $( "<img>" ).attr( "src", data.current_observation.icon_url ).addClass( "weatherIcon");
+        // var currentConditionsIcon = data.current_observation.icon_url;
+        var weatherIcon = $( "<img>" ).attr( "src", data.current_observation.icon_url ).addClass( "weatherIcon");
+        $( ".appointment-info--list" ).append( weatherIcon );
         // console.log( "http://api.wunderground.com/api/a4a7ba047e303c3b/conditions/q/" + userMessage[1] + ".json" );
         // console.log( currentTemp );
         // console.log( data.current_observation.icon_url );
@@ -35,8 +35,6 @@ $( function() {
 
 
 
-      // $( ".appointment-title" ).text( date[index].title );
-      // $( ".appointment-location--printout" ).text( "@ " + date[index].cityState );
 
 // class = "weatherIcon" src ="assets/images/weather-icons-partly-sun.png">
 
@@ -76,19 +74,19 @@ $( function() {
 // $( "<div></div>" ).attr( "class", "botTalkBubble" ).html( giphyImg ).appendTo( "main" );
 
 
-// // begin foursquare GET request
-//       $.ajax( {
-//         datatype: "json",
-//         url: "http://api.wunderground.com/api/a4a7ba047e303c3b/conditions/q/" + weatherState + "/" + weatherCity + ".json",
-//         method: "GET",
-//       } ) // end ajax GET request
-//
-//       // if request is successful
-//       .done( function(data) {
-//         var currentTemp = data.current_observation.feelslike_string;
-//         var weatherIcon = $( "<img>" ).attr( "src", data.current_observation.icon_url ).addClass( "weatherIcon");
-//         console.log( "http://api.wunderground.com/api/a4a7ba047e303c3b/conditions/q/" + userMessage[1] + ".json" );
-//         console.log( currentTemp );
-//         console.log( data.current_observation.icon_url );
-//         var weatherString = $( "<div></div>" ).attr( "class", "botTalkBubble" ).text( "Your weather is a comfortable " + currentTemp + " ");
-//         weatherString.prepend( weatherIcon ).appendTo( "main" );
+// begin foursquare GET request
+      // $.ajax( {
+      //   datatype: "json",
+      //   url: "http://api.wunderground.com/api/a4a7ba047e303c3b/conditions/q/" + weatherState + "/" + weatherCity + ".json",
+      //   method: "GET",
+      // } ) // end ajax GET request
+      //
+      // // if request is successful
+      // .done( function(data) {
+      //   var currentTemp = data.current_observation.feelslike_string;
+      //   var weatherIcon = $( "<img>" ).attr( "src", data.current_observation.icon_url ).addClass( "weatherIcon");
+      //   console.log( "http://api.wunderground.com/api/a4a7ba047e303c3b/conditions/q/" + userMessage[1] + ".json" );
+      //   console.log( currentTemp );
+      //   console.log( data.current_observation.icon_url );
+      //   var weatherString = $( "<div></div>" ).attr( "class", "botTalkBubble" ).text( "Your weather is a comfortable " + currentTemp + " ");
+      //   weatherString.prepend( weatherIcon ).appendTo( "main" );
