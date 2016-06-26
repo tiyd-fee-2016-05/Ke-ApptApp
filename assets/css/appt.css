@@ -18,7 +18,8 @@ body {
 .left-arrow {
   color: #7B7B7B;
   font-size: 2em;
-  margin-right: 7%; }
+  margin-right: 7%;
+  cursor: pointer; }
 
 .fa {
   color: #7B7B7B; }
@@ -57,29 +58,26 @@ main {
 .deleteButton {
   bottom: 0;
   display: inline-block;
-  width: 50%;
-  height: 2em;
   background-color: red;
   cursor: pointer;
-  border-radius: 2px; }
+  border-radius: 2px;
+  width: 100%; }
 
 .saveButton {
   border-radius: 2px;
   display: inline-block;
-  margin-left: 15%;
-  padding-left: 10%;
-  width: 50%;
-  height: 2em;
+  width: 100%;
   background-color: #56DBB7;
   color: #feffff;
-  margin-left: 10%;
   float: right; }
 
 h2 {
+  position: relative;
   text-align: center;
   margin-top: .75em;
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 500;
-  color: #fff; }
+  color: #feffff;
+  padding: .2em; }
 
 /*# sourceMappingURL=appt.css.map */
