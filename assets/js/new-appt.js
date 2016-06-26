@@ -110,7 +110,7 @@ $( function() {
     locStorage;
     clicks++;
     // thank you, http://stackoverflow.com/questions/17565401/html-button-navigate-to-other-page-different-approaches
-    window.location = "weather-map.html";
+    window.location = "index.html";
   });
 
 }) // end outmost function
