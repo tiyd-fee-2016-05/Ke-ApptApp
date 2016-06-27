@@ -18,6 +18,7 @@ body {
 .left-arrow {
   color: #7B7B7B;
   font-size: 2em;
+  font-weight: 200;
   margin-right: 7%;
   cursor: pointer;
   float: left; }
