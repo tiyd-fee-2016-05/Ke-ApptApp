@@ -44,7 +44,8 @@ main {
   font-weight: 300;
   width: 90%;
   margin: 0 auto 0;
-  overflow: auto;
+  overflow-y: auto;
+
 
   .appointment-heading {
     margin: 1.5em 0 -1.35em 7%;
@@ -126,3 +127,4 @@ footer {
     color: #fff;
   }
 }
+
