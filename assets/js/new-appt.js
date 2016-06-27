@@ -1,5 +1,4 @@
 $( function() {
-  
   "use strict";
 
   // GLOBAL VARIABLES
@@ -11,6 +10,12 @@ $( function() {
   var storageApptCombo;
   var clicks = 0;
   var storageArray;
+
+  // arrow at top takes you back to index.html
+  $('.left-arrow').on('click', function(e){
+    e.preventDefault
+    window.location = 'index.html';
+  });
 
   /*
     BEGIN TABBING EVENTS
@@ -118,3 +123,4 @@ $( function() {
   });
 
 }) // end outmost function
+
