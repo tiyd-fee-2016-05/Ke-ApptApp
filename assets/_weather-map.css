@@ -61,7 +61,7 @@ main {
   font-weight: 300;
   width: 90%;
   margin: 0 auto 0;
-  overflow: auto; }
+  overflow-y: auto; }
   main .appointment-heading {
     margin: 1.5em 0 -1.35em 7%;
     font-size: 1.05em;
@@ -117,3 +117,4 @@ footer {
     color: #fff; }
 
 /*# sourceMappingURL=_weather-map.css.map */
+
