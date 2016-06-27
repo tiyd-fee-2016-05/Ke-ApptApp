@@ -1,0 +1,128 @@
+@import "../bower_components/meyer-reset/stylesheets/_meyer-reset.scss";
+@import "../bower_components/susy/sass/susy";
+@import "../bower_components/font-awesome/css/font-awesome.css";
+
+$mainGreen: #56DBB7;
+$darkGray: #7B7B7B;
+$lightGray: #F4F4F4;
+$fontStack: "Roboto", arial, sans-serif;
+$headerFontSize: 2em;
+
+body {
+  width: 100%;
+  margin: 0 auto 0;
+  font-family: $fontStack;
+  color: $darkGray;
+}
+
+.left-arrow {
+  position:absolute;
+  bottom: 8.05em;
+  left: 3.25%;
+  font-size: $headerFontSize + 1.4em;
+  cursor: pointer;
+}
+
+header {
+  margin-top: 2.5em;
+  padding-bottom: .15em;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: .15em solid $lightGray;
+
+  h1 {
+    position: relative;
+    bottom: .5em;
+    display: inline-block;
+    font-size: $headerFontSize;
+  }
+} // end header
+
+main {
+
+  font-size: $headerFontSize - .5em;
+  font-weight: 300;
+  width: 90%;
+  margin: 0 auto 0;
+  overflow: auto;
+
+  .appointment-heading {
+    margin: 1.5em 0 -1.35em 7%;
+    font-size: $headerFontSize - .95em;
+    font-weight: 500
+  }
+
+  .appointment-time {
+    position: relative;
+    top: .47em;
+    left: 10.15em;
+    font-weight: 500;
+    color: $mainGreen;
+  }
+
+  figure {
+    width: 90%;
+    margin: 0 auto 0;
+  }
+
+  .fa-map-marker {
+    // position: absolute;
+    // bottom: 17.15em;
+    // left: 15.75em;
+    margin-left: 72%;
+    font-size: 1.25em;
+    color: $mainGreen;
+  }
+
+  figcaption {
+    margin: 1.5em 0 .5em 2.5%;
+  }
+
+  .location-pic {
+    width: 100%;
+    margin: 0 auto 0;
+    border: 1px solid $darkGray;
+  }
+
+  .appt-weather {
+    width: 90.55%;
+    background-color: $lightGray;
+    margin: 1.15em auto 0;
+  }
+
+  .weather-pic {
+    width: 15%;
+    margin: .45em 0 0 1em;
+  }
+
+  .weather-conditions {
+    // padding: 0 0 1.75em 1em;
+    position: relative;
+    left: 1.35em;
+    bottom: .5em;
+    text-align: center;
+    font-size: $headerFontSize - .5em;
+  }
+
+  .needs-bottom-border {
+    border-bottom: .1em solid $lightGray;
+  }
+} // end main
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: .2px;
+  width: 100%;
+  height: 4.75em;
+  background-color: $mainGreen;
+  cursor: pointer;
+
+  h2 {
+    text-align: center;
+    margin-top: .75em;
+    font-size: $headerFontSize;
+    font-weight: 500;
+    color: #fff;
+  }
+}
