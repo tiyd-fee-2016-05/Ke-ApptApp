@@ -1,0 +1,86 @@
+body {
+  background-color: #feffff;
+  font-family: Roboto, sans-serif; }
+
+.wrapper {
+  margin: 5% 8%; }
+
+.pageTitle {
+  border-bottom: solid 2px #7B7B7B; }
+
+.bigTitle {
+  color: #7B7B7B;
+  font-size: 2em;
+  text-align: center;
+  padding: 2%;
+  margin-right: 10%; }
+
+.left-arrow {
+  color: #7B7B7B;
+  font-size: 2em;
+  font-weight: 200;
+  margin-right: 7%;
+  cursor: pointer;
+  float: left; }
+
+.fa {
+  color: #7B7B7B; }
+
+/*Erik's styling for other form*/
+main {
+  font-size: 1.5em;
+  font-weight: 300;
+  width: 100%; }
+  main form {
+    margin-top: 1em; }
+  main label {
+    display: block;
+    margin: 1em 0 .35em 2.45%; }
+  main input {
+    display: block;
+    width: 95%;
+    margin: 0 auto 0;
+    font-size: 1em;
+    color: #7B7B7B; }
+  main .fa-map-marker {
+    position: absolute;
+    bottom: 16.55em;
+    right: 3.25%; }
+  main .fa-calendar {
+    position: absolute;
+    bottom: 8.45em;
+    right: 3.25%; }
+  main .fa-clock-o {
+    position: absolute;
+    bottom: 4.35em;
+    right: 3.25%; }
+  main .needs-bottom-border {
+    border-bottom: 0.1em solid #F4F4F4; }
+
+.deleteButton {
+  bottom: 0;
+  display: inline-block;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 100%; }
+
+.saveButton {
+  cursor: pointer;
+  border-radius: 2px;
+  display: inline-block;
+  width: 100%;
+  background-color: #56DBB7;
+  color: #feffff;
+  float: right; }
+
+h2 {
+  position: relative;
+  text-align: center;
+  margin-top: .75em;
+  font-size: 2em;
+  font-weight: 500;
+  color: #feffff;
+  padding: .2em; }
+
+/*# sourceMappingURL=appt.css.map */

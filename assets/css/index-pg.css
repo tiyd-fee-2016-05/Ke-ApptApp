@@ -1,0 +1,77 @@
+body {
+  background-color: #feffff;
+  font-family: Roboto, sans-serif; }
+
+.wrapper {
+  margin: 5% 8%; }
+
+.pageTitle {
+  border-bottom: solid 2px #7B7B7B; }
+
+.bigTitle {
+  color: #56DBB7;
+  font-size: 2.7em;
+  text-align: center;
+  padding: 2%; }
+
+.fa-plus {
+  color: #7B7B7B;
+  font-size: 3em;
+  margin-left: 10%; }
+
+.searchBar-search {
+  width: 80%;
+  margin: 5% 10% 10% 3%;
+  padding: 0.5em 0; }
+
+.fa-search {
+  color: #7B7B7B;
+  text-align: right; }
+
+.appointment-info {
+  background-color: #F4F4F4;
+  font-size: 1em;
+  width: 80%;
+  height: 20%;
+  display: block;
+  padding: 3%; }
+
+.appointment-info--list-item {
+  width: 90%;
+  height: 18%; }
+
+.appointments-time {
+  width: 20%;
+  height: 20%;
+  margin-right: 0;
+  background-color: #56DBB7;
+  display: block;
+  padding: 1.5%; }
+
+.weatherIcon {
+  width: 70%;
+  height: 70%;
+  margin: 2% 10%;
+  display: inline-block; }
+
+.appointments-time--prinout {
+  font-family: Archivo Black, sans-serif;
+  color: #feffff;
+  font-size: 1.6em;
+  padding: 3%; }
+
+.appointment-title {
+  text-align: right;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+  margin-left: 25%; }
+
+.appointment-location--printout {
+  position: relative;
+  color: #7B7B7B;
+  font-style: italic;
+  font-size: 1em;
+  text-align: right;
+  margin-left: 25%; }
+
+/*# sourceMappingURL=index-pg.css.map */

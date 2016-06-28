@@ -46,3 +46,4 @@ $( function() {
     window.location = "new-appt.html";
   } ) // end fa-plus click event
 }) // end outmost function
+
