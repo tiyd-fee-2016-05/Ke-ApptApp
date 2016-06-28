@@ -1,6 +1,7 @@
 $( function() {
   "use strict";
 
+  // GLOBAL VARIABLES
   var apptTitle, apptStreet, apptCityState, apptDate, apptTime;
   var bookedDates = [];
   var bookedTimes = [];
@@ -10,10 +11,15 @@ $( function() {
   var clicks = 0;
   var storageArray;
 
-  // function getLocalStorage() {
-  //   locStorage = JSON.parse(localStorage.getItem( "appointments" ) );
-  // }
+  // arrow at top takes you back to index.html
+  $('.left-arrow').on('click', function(e){
+    e.preventDefault
+    window.location = 'index.html';
+  });
 
+  /*
+    BEGIN TABBING EVENTS
+  */
   $( document ).ready( function() {
     $( ".title" ).focus();
   });
@@ -53,6 +59,7 @@ $( function() {
     }
   }) // end keypress event
 
+  // thank you http://amsul.ca/pickadate.js/ for your amazing date widget
   $ ( ".date" ).on( "click", function(e) {
     e.preventDefault();
     $( ".date" ).pickadate({
@@ -62,12 +69,14 @@ $( function() {
     });
   }) // end date field click event
 
+  // thank you http://amsul.ca/pickadate.js/ for your amazing time widget
   $ ( ".time" ).on( "click", function(e) {
     e.preventDefault();
     $( ".time" ).pickatime({
     });
   }) // end date field click event
 
+  // when you click on the footer, it will save the data in the input fields to localStorage variable named "appointments"
   $( "footer" ).on( "click", function(e) {
     e.preventDefault();
     apptTitle = $( ".title[name='title']" ).val();
@@ -85,7 +94,6 @@ $( function() {
     // thank you, http://stackoverflow.com/questions/19174525/how-to-store-array-in-localstorage-object-in-html5 for your help for "if" and "else"
     if (localStorage.getItem( "appointments" ) === null ) {
       storageArray = [apptObj];
-      // localStorage.removeItem( "appointments" );
       localStorage.setItem( "appointments", JSON.stringify(storageArray));
     }
 
@@ -109,8 +117,10 @@ $( function() {
     // console.log( locStorage );
     locStorage;
     clicks++;
-    // thank you, http://stackoverflow.com/questions/17565401/html-button-navigate-to-other-page-different-approaches
-    window.location = "weather-map.html";
+
+    // thank you, http://stackoverflow.com/questions/17565401/html-button-navigate-to-other-page-different-approaches, for correct wording
+    window.location = "index.html";
   });
 
 }) // end outmost function
+
