@@ -5,15 +5,16 @@
     $routeProvider
       .when( "/home", {
         templateUrl: "list-of-appts.html",
-        controller: "NewApptController"
       }) // end home when
       .when( "/NewAppt", {
         templateUrl: "new-appt.html",
-        controller: "NewApptController"
       }) // end new-appt when
-      // .when({
-      //
-      // })
+      .when( "/ApptDetail", {
+        templateUrl: "weather-map.html",
+      }) // end new-appt when
+      .when( "/EditApp", {
+        templateUrl: "appt.html",
+      }) // end new-appt when
       .otherwise( {
       redirectTo: "list-of-appts.html"
     });
