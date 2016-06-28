@@ -1,0 +1,24 @@
+{
+  "name": "Ke-ApptApp",
+  "homepage": "https://github.com/tiyd-fee-2016-05/Ke-ApptApp",
+  "authors": [
+    "Erik Petersen <contacterikpetersen@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "meyer-reset": "*",
+    "font-awesome": "^4.6.3",
+    "pickadate": "^3.5.6"
+  }
+}

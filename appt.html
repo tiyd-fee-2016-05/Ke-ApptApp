@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="assets/appt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+    <title>ApptApp: View Appointment</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="pageTitle">
+            <span>
+              <h2 class="bigTitle"> <span class="left-arrow"><</span></i>Edit Appointment</h2>
+            </span>
+        </div>
+        <main>
+            <form>
+                <!-- input "Title" -->
+                <label for="titleInput">Title
+                </label>
+                <input type="text" name="titleInput" class="title needs-bottom-border">
+
+                <fieldset>
+                    <!-- input "Street" -->
+                    <label for="street">Street
+                        <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    </label>
+                    <input type="text" name="street" class="street">
+                    <!-- input "City, State" -->
+                    <label for="city-state">City, State</label>
+                    <input type="text" name="city-state" class="city-state needs-bottom-border">
+                </fieldset>
+
+                <!-- input "Date" -->
+                <label for="date">Date
+                    <span class="fa fa-calendar" aria-hidden="true"></span>
+                </label>
+                <input type="text" name="date" class="date needs-bottom-border">
+
+                <!-- input "Time" -->
+                <label for="time">Time
+                    <span class="fa fa-clock-o" aria-hidden="true"></span>
+                </label>
+                <input type="text" name="time" class="time needs-bottom-border">
+            </form>
+
+            <div class="deleteButton">
+              <h2>Delete</h2>
+            </div>
+            <div class="saveButton">
+              <h2>Save</h2>
+            </div>
+        </main>
+</body>
+
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.js"></script>
+        <script src="assets/js/appt.js"></script>
+
+</body>
