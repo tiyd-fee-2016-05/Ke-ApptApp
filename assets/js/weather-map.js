@@ -1,5 +1,5 @@
 $( function() {
-  
+
   "use strict";
 
   $( document ).ready( function() {
@@ -17,7 +17,7 @@ $( function() {
   }); // end document.ready
 
   // arrow at top takes you back to index.html
-  $('.left-arrow').on('click', function (e){
+  $('.left-arrow').on('click', function(e){
     e.preventDefault
     window.location = 'index.html';
   });

@@ -1,5 +1,5 @@
 $( function() {
-  
+
   "use strict";
 
   // GLOBAL VARIABLES
@@ -28,8 +28,8 @@ $( function() {
         });
 
       // build up list of elements to append to the ul
-      var timeLi = $( "<li></li>" ).html( "<h2 class='appointments-time--prinout'>" + date[index].time + "</h2><img src='apptList[index]' class='weatherIcon'>
-                      <div class='appointment-title'>" + date[index].title + "</div><p class='appointment-location--printout'>" + date[index].cityState +
+      var timeLi = $( "<li></li>" ).html( "<h2 class='appointments-time--prinout'>" + date[index].time + "</h2><img src='assets/images/cloud.png' class='weatherIcon'>"
+                      + "<div class='appointment-title'>" + date[index].title + "</div><p class='appointment-location--printout'>" + date[index].cityState +
                       "</p>").appendTo( ".appointment-info--list" );
     } // end for loop
   }); // end document.ready()

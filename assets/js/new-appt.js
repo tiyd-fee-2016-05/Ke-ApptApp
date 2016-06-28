@@ -1,5 +1,4 @@
 $( function() {
-  
   "use strict";
 
   // GLOBAL VARIABLES
@@ -12,50 +11,56 @@ $( function() {
   var clicks = 0;
   var storageArray;
 
+  // arrow at top takes you back to index.html
+  $('.left-arrow').on('click', function(e){
+    e.preventDefault
+    window.location = 'index.html';
+  });
+
   /*
     BEGIN TABBING EVENTS
   */
-  $( document ).ready( function() {
-    $( ".title" ).focus();
-  });
-
-  $( ".title" ).keypress( function(e) {
-    // e.preventDefault();
-    if( e.which === 9 ) {
-      $( ".street" ).focus();
-    }
-  }) // end keypress event
-
-  $( ".street" ).keypress( function(e) {
-    // e.preventDefault();
-    if( e.which === 9 ) {
-      $( ".city-state" ).focus();
-    }
-  }) // end keypress event
-
-  $( ".city-state" ).keypress( function(e) {
-    // e.preventDefault();
-    if( e.which === 9 ) {
-      $( ".date" ).focus();
-    }
-  }) // end keypress event
-
-  $( ".date" ).keypress( function(e) {
-    // e.preventDefault();
-    if( e.which === 9 ) {
-      $( ".time" ).focus();
-    }
-  }) // end keypress event
-
-  $( ".time" ).keypress( function(e) {
-    // e.preventDefault();
-    if( e.which === 9 ) {
-      // $( ".time" ).focus();
-    }
-  }) // end keypress event
+  // $( document ).ready( function() {
+  //   $( ".title" ).focus();
+  // });
+  //
+  // $( ".title" ).keypress( function(e) {
+  //   // e.preventDefault();
+  //   if( e.which === 9 ) {
+  //     $( ".street" ).focus();
+  //   }
+  // }) // end keypress event
+  //
+  // $( ".street" ).keypress( function(e) {
+  //   // e.preventDefault();
+  //   if( e.which === 9 ) {
+  //     $( ".city-state" ).focus();
+  //   }
+  // }) // end keypress event
+  //
+  // $( ".city-state" ).keypress( function(e) {
+  //   // e.preventDefault();
+  //   if( e.which === 9 ) {
+  //     $( ".date" ).focus();
+  //   }
+  // }) // end keypress event
+  //
+  // $( ".date" ).keypress( function(e) {
+  //   // e.preventDefault();
+  //   if( e.which === 9 ) {
+  //     $( ".time" ).focus();
+  //   }
+  // }) // end keypress event
+  //
+  // $( ".time" ).keypress( function(e) {
+  //   // e.preventDefault();
+  //   if( e.which === 9 ) {
+  //     // $( ".time" ).focus();
+  //   }
+  // }) // end keypress event
 
   // thank you http://amsul.ca/pickadate.js/ for your amazing date widget
-  $ ( ".date" ).on( "click", function(e) {
+  $ ( ".date" ).on( "focus", function(e) {
     e.preventDefault();
     $( ".date" ).pickadate({
       changeMonth: true,//this option for allowing user to select month
